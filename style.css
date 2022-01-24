@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-weight: normal ;
+    font-size: 4rem;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+}
+.goal{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200px;
+    list-style: 2px;
+}
+
+.goal:hover{
+    background-color:rgba(164, 122, 189, 0.2) ;
+   
+}
+
+.goals{
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+    border: 2px dashed rgb(211, 145, 218);
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);}
+
+
+    .goals:hover{
+        background-color: rgba(254, 255, 254, 0.5);
+    }
+    li{
+        list-style-type: disc;
+        padding: 2px;
+    }
+    li:hover{
+        background-color: rgba(123, 34, 182, 0.5);
+    }
